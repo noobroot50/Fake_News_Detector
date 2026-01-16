@@ -3,18 +3,6 @@ Fake News Detection using Machine Learning
 This project is a full-stack Machine Learning application designed to identify fabricated news articles. By utilizing **Natural Language Processing (NLP)** and **Logistic Regression**, the system analyzes linguistic patterns to classify news as either **Reliable** or **Unreliable**.
 
 ---
-
-## 📊 Process Flow
-
-    A[User Input Text] --> B[Text Preprocessing]
-    B --> B1[Remove Punctuation & Numbers]
-    B1 --> B2[Lowercase Conversion]
-    B2 --> B3[Stopword Removal]
-    B3 --> B4[Porter Stemming]
-    B4 --> C[TF-IDF Vectorization]
-    C --> D{Logistic Regression Model}
-    D -->|Probability > 0.5| E[✅ RELIABLE SOURCE]
-    D -->|Probability < 0.5| F[🚨 UNRELIABLE / FAKE]
 1.Features
 Real-time Analysis: High-speed prediction using a trained Logistic Regression model.
 
