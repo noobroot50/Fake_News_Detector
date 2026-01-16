@@ -5,10 +5,7 @@ This project is a full-stack Machine Learning application designed to identify f
 ---
 
 ## 📊 Process Flow
-The following flowchart illustrates the end-to-end pipeline of the application:
 
-```mermaid
-graph TD
     A[User Input Text] --> B[Text Preprocessing]
     B --> B1[Remove Punctuation & Numbers]
     B1 --> B2[Lowercase Conversion]
