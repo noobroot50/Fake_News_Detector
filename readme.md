@@ -1,6 +1,7 @@
 Fake News Detection using Machine Learning
 
 This project is a full-stack Machine Learning application designed to identify fabricated news articles. By utilizing **Natural Language Processing (NLP)** and **Logistic Regression**, the system analyzes linguistic patterns to classify news as either **Reliable** or **Unreliable**.
+Deployment Link: https://fakenewsdetector-nbjrzos2kjdjxqkhcdnheg.streamlit.app
 
 ---
 1.Features:
