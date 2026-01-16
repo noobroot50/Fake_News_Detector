@@ -3,7 +3,8 @@ Fake News Detection using Machine Learning
 This project is a full-stack Machine Learning application designed to identify fabricated news articles. By utilizing **Natural Language Processing (NLP)** and **Logistic Regression**, the system analyzes linguistic patterns to classify news as either **Reliable** or **Unreliable**.
 
 ---
-1.Features
+1.Features:
+
 Real-time Analysis: High-speed prediction using a trained Logistic Regression model.
 
 Interactive UI: A modern, professional dashboard built with Streamlit.
@@ -12,7 +13,8 @@ Linguistic Metrics: Displays word count and character count for input text.
 
 Forensic Diagnostic: Simulated scanning progress to enhance user trust.
 
-2. Tech Stack
+2. Tech Stack:
+   
 Frontend: Streamlit
 
 Machine Learning: Scikit-Learn (Logistic Regression)
@@ -23,7 +25,8 @@ Data Manipulation: Pandas, NumPy
 
 Serialization: Pickle
 
-3. Detailed Explanation
+3. Detailed Explanation:
+   
 1. Data Preprocessing
 
 Raw text is cleaned to ensure the model focuses only on meaningful data. This involves:
@@ -44,11 +47,12 @@ Class 0: Fake News
 
 The app.py script bridges the gap between the saved .pkl files and the user. It applies the same preprocessing used during training to the user's input before running the prediction.
 
-4.Installation & Setup
+4.Installation & Setup:
+ 
 Clone the repository:
 
 Bash
-git clone [https://github.com/yourusername/Fake-News-Detection.git](https://github.com/yourusername/Fake-News-Detection.git)
+git clone [https://github.com/yourusername/Fake-News-Detection.git]([https://github.com/yourusername/Fake-News-Detection.git](https://github.com/noobroot50/Fake_News_Detector))
 cd Fake-News-Detection
 Install dependencies:
 
